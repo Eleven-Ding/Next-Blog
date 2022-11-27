@@ -1,34 +1,14 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Welcome !
 
-## Getting Started
+# 简介
+这是一个基于 [Next.js 12](https://beta.nextjs.org/docs) 搭建的一个博客前台
 
-First, run the development server:
+因为正在学习 `Next.js`，光学不用很快就忘记了，所以跟着官方文档，搭建该博客，并且我想实现一下功能:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [ ] 四个路由: **Home** 、 **About** 、**Profile**(动态路由)、**Friends**
+- [ ] 在 api 层对数据进行处理、聚合，统一数据格式
+- [ ] 完成一个日志系统，当前项目提供`日志SDK`，暂时命名为 `ElevenLogger`，后续能够支持日志报警、`sourceMap`反解等(管理端做得事情)
+- [ ] 使用 `Typescript` 开发、规范自己的代码不仅限于 `git` 规范、命名规范等
+- [ ] 使用 `Node` + `Webhook` 搭建一个自动化发布服务
+- [ ] 不使用组件库、一些基本组件自己针对场景封装，减少包的体积。
+- [ ] 做一些 HTTP 请求日志追踪的东西

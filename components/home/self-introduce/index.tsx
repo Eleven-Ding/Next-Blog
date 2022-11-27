@@ -1,7 +1,7 @@
 import styles from "./index.module.scss";
-import Image from "next/image";
+import CustomImage from "../../share/image/image";
 export const CONNECT_ICON_SIZE = 22;
-export  default function IntroduceSelf() {
+export default function IntroduceSelf() {
   return (
     <div className={styles["self-introduce-container"]}>
       <h1>ElevenDing</h1>
@@ -11,24 +11,24 @@ export  default function IntroduceSelf() {
         在探索中进步，我希望有一天能成为一名全栈工程师，努力把自己的梦想变成现实
       </p>
       <section className={styles.connections}>
-        <Image
+        <CustomImage
           width={CONNECT_ICON_SIZE}
           height={CONNECT_ICON_SIZE}
-          src="/imgs/github.jpeg"
+          src="/imgs/github.jpg"
           alt="Github"
-        ></Image>
-        <Image
+        ></CustomImage>
+        <CustomImage
           width={CONNECT_ICON_SIZE}
           height={CONNECT_ICON_SIZE}
-          src="/imgs/wechat.jpeg"
+          src="/imgs/wechat.jpg"
           alt="Wechat"
-        ></Image>
-        <Image
+        ></CustomImage>
+        <CustomImage
           width={CONNECT_ICON_SIZE}
           height={CONNECT_ICON_SIZE}
-          src="/imgs/email.jpeg"
+          src="/imgs/email.jpg"
           alt="Email"
-        ></Image>
+        ></CustomImage>
       </section>
       <hr />
     </div>

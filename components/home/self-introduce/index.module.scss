@@ -1,0 +1,44 @@
+.self-introduce-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    padding: 10px 0;
+    color: #333;
+  }
+  p {
+    padding: 10px 0;
+    color: #2f2e2e;
+  }
+  hr {
+    overflow: visible;
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+    margin-top: 40px;
+    width: 100%;
+  }
+  hr::before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+  }
+  .connections {
+    width: 100%;
+    display: flex;
+    padding: 10px 0;
+    justify-content: space-around;
+    img {
+      cursor: pointer;
+      border-radius: 50%;
+    }
+  }
+}
